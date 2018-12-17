@@ -1,0 +1,23 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav  {
+    background-color: #9BE5F3;
+    color: #1850a5;
+
+}
+nav a img {
+    width: 25%;
+    margin-left: 50%;
+}
+nav div {
+    font-size: 1.5rem;
+    margin-left: 40%;
+}
+
+hr {
+    background-color: #1850a5;
+}
+.main {
+    background-color: #9BE5F3;
+}
