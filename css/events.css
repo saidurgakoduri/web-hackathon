@@ -1,0 +1,72 @@
+
+.dropdown-menu
+{
+    display: inline;
+}
+.navbar
+{
+    padding-left: 750px;
+    font-size: 25px;
+    height: 120px;
+    background-image: -webkit-linear-gradient(280deg,#352384,#ff00bf);
+
+}
+.nav-brand
+{
+    margin-right: 700px;
+}
+.row
+{
+    margin-top: 120px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    background-color: transparent;
+    height: auto; /* Should be removed. Only for demonstration */
+  }
+  .jumbotron
+  {
+      background-color: transparent;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    
+    clear: both;
+  }
+  .lead1
+  {
+      background-color: pink;
+  }
+  .column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column1 article
+  {
+      padding: 30px;
+      text-align: left; 
+      font-family: 'Times New Roman', Times, serif;
+      color: rgb(110, 12, 45);
+      font-size: 20px;
+  }
+  .card
+  {
+      margin-left: 60%;
+  }
+  .event
+  {
+      height: 400px;
+    
+  }
