@@ -1,0 +1,67 @@
+header {
+    background-color:lightslategray;
+    width:"200px";
+    height:"200px";
+    top:0px;
+    padding:20px;
+    /*position: fixed;*/
+    background-size: contain;   
+
+
+}
+
+figure img {
+
+    left: 20px;
+}
+li{
+    display:inline;
+    padding-right: 60px;
+    float:right;
+    top:0px;
+}
+    /* cover image */
+#cover
+{
+    background: #222 url("../img/lyftc.jpg ")  center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width:1580px;
+}
+.jumbotron
+{
+color:white;
+text-align: center;
+}
+section p{
+    text-align: center;
+    font-family: 'Source Sans Pro';
+}
+footer
+{
+    padding-left: 1000px;
+    
+}
+.quote, blockquote
+{
+    text-align: center;
+}
+/* phone image center
+.center img {
+
+    margin-left: 400px;
+    margin-right: 200px;
+    vertical-align: middle;
+}*/
+  #phone img
+  {
+      padding-bottom:1200px;
+      margin-left:500px;
+
+  }
+  
+  
