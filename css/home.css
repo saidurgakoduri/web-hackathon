@@ -1,6 +1,14 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
+.parallax{
+    position: relative;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 nav  {
     background-color: #9BE5F3;
     color: #1850a5;
@@ -18,6 +26,100 @@ nav div {
 hr {
     background-color: #1850a5;
 }
+
+/*main section */
+
 .main {
     background-color: #9BE5F3;
+    margin: 0;
+    padding-top: 4%;
+}
+.left_side {
+    color: #1850a5;
+    padding-left: 8.9%; 
+
+}
+.left_side h1 {
+    font-size: 5rem;
+}
+
+.phone_number {
+    font-size: 1rem;
+    min-height: 55px;
+    border: 0;
+    border-radius: .5rem;
+    box-shadow: inset 0 2px 0 0 rgba(17,17,31,.25);
+    transition: box-shadow .5s cubic-bezier(.19,1,.22,1);
+    width: 48%;
+    color: #11111f;
+}
+
+.round {
+    padding-left: 5px;
+    display: inline;
+  }
+  
+  .round label {
+    background-color: #9BE5F3;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    width: 28px;
+  }
+  
+  .round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 7px;
+    opacity: 0;
+    position: absolute;
+    top: 8px;
+    transform: rotate(-45deg);
+    width: 12px;
+  }
+  
+  .round input[type="checkbox"] {
+      visibility: hidden;
+  }
+  
+  .round input[type="checkbox"]:checked + label {
+    background-color: #9BE5F3;
+    border-color: #1850a5;
+  }
+  
+  .round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+  }
+  .checkbox1 {
+      display: inline;
+      padding-left: 30px;
+  }
+  .tos_button {
+      margin-top: 20px;
+      background-color: #1850a5;
+      border: none;
+      color: #fff;
+      border-radius: 25px;
+      width: 35%;
+      height: 60px;
+  }
+  .tos_button:hover {
+      border-color: #11111f;
+      color: #fff;
+      background-color: #11111f;
+      border: 2px solid;
+  }
+  .tos_a {
+      padding-left: 15px;
+      color: #1850a5;
+      font-size: 20px;
+  }
+  
+.home_image img{
+    width: 80%;
 }
